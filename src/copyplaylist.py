@@ -307,8 +307,11 @@ def main():
         for item in unmatched_items:
             print(f"No match for Title: {item.title}, Album: {item.parentTitle}, Artist: {item.grandparentTitle}")
 
-# Add a 
-
+# Improvement Ideas
+# - Add a question 'do you want to copy another playlist' (split main in defs)
+# - Explain in the Readme.md how to start the scrip python3 copyplaylist.py
+# - Explain that to copy non Admin users, one has to log on as those users.
+# - Create a log file (on disk) with the success and/or failed items.
 
 #
 # Just executes the main function if run manually
